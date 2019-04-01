@@ -8,11 +8,13 @@ namespace лаба_1
 {
     class Obu
     {
-       
-
         static void Main(string[] args)
         {
             Console.WriteLine("GIT");
+            Obuv ara = new Obuv();
+            ara.SetInfo();
+            ara.GetInfo();
+            Console.ReadKey();
         }
     }
 }
